@@ -15,9 +15,9 @@ function showDetails(descricao, imagemUrl) {
 function getCategorySelect(){
     const select = document.querySelector("select")
     if(select.value === 'bebidas'){
-        window.location.pathname = '/pages/bebidas.html'
+        window.location.pathname = 'https://rafaelmagnoc.github.io/kabana-caju-cardapio-bebidas/'
     }
     else{
-        window.location.pathname = '/index.html'
+        window.location.pathname = 'https://rafaelmagnoc.github.io/kabana-caju-cardapio/'
     }
 }
